@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finalizar</title>
+    <script src="finalizar.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Finalizar</h1>
+    <hr />
+    <hr />
+    <h2>Carrinho</h2>
+    <table border="1" width="40%">
+      <tr>
+        <th>Produto</th>
+        <th>Quantidade</th>
+        <th>Subtotal</th>
+      </tr>
+      <tr>
+        <th>🎫</th>
+        <td align="center" id="n-ingressos">0</td>
+
+        <td align="center" id="valor-ingressos">R$ 0,00</td>
+      </tr>
+      <tr>
+        <th id="pipoca">🍿</th>
+        <td align="center" id="n-pipocas">0</td>
+        <td align="center" id="valor-pipocas">R$ 0,00</td>
+      </tr>
+      <tr>
+        <th id="bebida">🍹</th>
+        <td align="center" id="n-refris">0</td>
+        <td align="center" id="valor-refris">R$ 0,00</td>
+      </tr>
+      <tr>
+        <th>Total</th>
+        <td align="center" id="n-total">0</td>
+        <td align="center" id="valor-total">R$ 0,00</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <br />
+    <table border="1" width="40%" height="50">
+      <tr>
+        <th>Assentos</th>
+        <td align="center" id="assentos">Nenhum assento selecionado</td>
+      </tr>
+    </table>
+    <h2 id="Pagamento">Forma de Pagamento</h2>
+    <form action="">
+      <div>
+          <input type="checkbox" name="pix" id="pix" />
+          Pix
+      </div>
+      <div>
+          <input type="checkbox" name="debito" id="debito" />
+          Débito
+      </div>
+      <div>
+          <input type="checkbox" name="credito" id="credito" />
+          Credito
+      </div>
+      <img src="" alt="" style="display: none;" id="imagem">
+    </form>
+      <div>
+        <button id="feito" >FEITO</button>
+      </div>
+    
+    
+  </body>
+</html>

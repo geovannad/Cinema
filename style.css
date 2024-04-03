@@ -1,0 +1,36 @@
+body {
+  background-color: cornsilk;
+}
+.selecionado {
+  background-color: black;
+  cursor: pointer;
+}
+.ocupado {
+  background-color: palevioletred;
+  text-decoration: none;
+}
+.vazio {
+  background-color: paleturquoise;
+}
+.disponivel {
+  background-color: palegreen;
+  cursor: pointer;
+}
+body {
+  user-select: none;
+}
+button {
+  width: 8rem;
+  margin: 2rem;
+  margin-left: 0rem;
+  padding: 0.7rem;
+  font-size: 17px;
+  background-color: paleturquoise;
+}
+div{
+  display: block;
+  padding: 0.5rem;
+}
+#Pagamento{
+  margin-top: 3rem;
+}
